@@ -1,0 +1,65 @@
+.todo {
+	width: 400px;
+	border: 1px solid #d5d5d5;
+
+	position: relative;
+	height: 600px;
+	position: relative;
+
+	.todo-container {
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 40px;
+		overflow: auto;
+		padding: 10px 10px;
+	}
+
+	.todo-item {
+		display: block;
+		border: 1px solid #d5d5d5;
+		margin: 0;
+		margin-bottom: 5px;
+		position: relative;
+		min-height: 35px;
+		padding: 5px 68px 5px 5px;
+		background-color: #f9f9f9;
+
+		>Button {
+			position: absolute;
+			right: 5px;
+			top: 5px;
+			bottom: 5px;
+		}
+	}
+
+
+	.todo-footer {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: 40px;
+		background-color: #d5d5d5;
+		box-sizing: border-box;
+		width: 100%;
+
+		>Button {
+			position: absolute;
+			right: 5px;
+			bottom: 5px;
+			top: 5px
+		}
+
+		>input {
+			position: absolute;
+			display: block;
+			left: 5px;
+			bottom: 5px;
+			top: 5px;
+			width: 80%;
+			box-sizing: border-box;
+		}
+	}
+}
